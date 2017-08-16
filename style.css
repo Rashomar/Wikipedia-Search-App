@@ -1,0 +1,32 @@
+body{
+	background-color: #fff;
+    background-image: linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100%  1.2em;
+    font-family: 'Sura', serif;
+    font-size: 15px;
+}
+.photo{
+	width:200px;
+	height: 250px;
+	margin:25px 0;
+}
+button>span{
+	padding:1.5px;
+}
+ul{
+	padding-left:0;
+}
+li{
+	margin-top: 30px;
+	list-style-type: none;
+	background-color: #D0D0D0;
+	border:2px solid #A66019;
+	border-radius: 14px;
+	padding:2px;
+}
+span.glyphicon.glyphicon-globe{
+	margin-right: 8px;
+}
+a{
+	color:blue;
+}

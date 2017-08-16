@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Search</title>
+	 <link href="https://fonts.googleapis.com/css?family=Dhurjati|Peddana|Sura|Suravaram" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script src="wiki.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="text-center">
+		<a href="https://en.wikipedia.org/wiki/special:random" target="_blank">
+		<img class="photo" src="https://ncowie.files.wordpress.com/2010/06/wikipedia-logo.png" alt="Wikipedia logo">
+		</a>
+	</div>
+		<form>
+		<div class="row">
+		  <div class="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+			<div class="form-group input-group">
+		       <span class="input-group-btn">
+		         <button id="search" class="btn btn-danger" type="button"><span class="glyphicon glyphicon-search"></span></button>
+		       </span>
+		       <input type="text" id="searchValue" class="form-control" placeholder="Search for...">
+		  </div> <!-- end form-group -->
+		  </div> <!-- end col-lg-4 ... -->
+		</div><!-- end row --> 
+		<div class="row">
+		  	<div class="col-lg-8 col-lg-offset-2">
+		     <ul id="output">
+		      	
+		     </ul>
+	      </div> <!-- end col-lg-8 -->
+	    </div> <!-- end row -->
+		</form>
+</div> <!-- end container -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
